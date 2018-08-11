@@ -20,10 +20,10 @@ import (
 
 func init() {
 	config := logrusbolt.BoltHook{
-        Bucket:    "test",
-        Formatter: &logrus.JSONFormatter{},
-        DBLoc:     "/tmp/test.db",
-    }
+		Bucket:    "test",
+		Formatter: &logrus.JSONFormatter{},
+		DBLoc:     "/tmp/test.db",
+	}
 	
 	hook, err := logrusbolt.NewHook(config)
 	
