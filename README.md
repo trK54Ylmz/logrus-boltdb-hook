@@ -15,7 +15,7 @@ package main
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/trK54Ylmz/logrus-boltdb-hook"
+	logrusbolt "github.com/trK54Ylmz/logrus-boltdb-hook"
 )
 
 func init() {
