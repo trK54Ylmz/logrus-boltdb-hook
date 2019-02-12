@@ -2,10 +2,11 @@ package logrusbolt
 
 import (
 	"fmt"
-	"github.com/coreos/bbolt"
-	"github.com/sirupsen/logrus"
 	"math/rand"
 	"time"
+
+	"github.com/sirupsen/logrus"
+	bolt "go.etcd.io/bbolt"
 )
 
 const (
